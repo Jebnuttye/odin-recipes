@@ -1,14 +1,27 @@
 * {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(26, 25, 25);
     color: white;
 }
 
-a:hover {
-    background-color: gray;
-    display: block;
+.exit {
+    border-style: groove;
     padding: 5px;
+    border-radius: 15px;
+    margin: 10px;
 }
 
-a:visited {
+.exit:hover {
+    background-color: rgba(123, 6, 158, 0.363);
+}
+
+.exit:visited {
     color: blueviolet;
+}
+
+h1, h2 {
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 15px;
+    padding: 5px;
 }
