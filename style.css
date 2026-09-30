@@ -1,0 +1,14 @@
+* {
+    background-color: rgb(26, 25, 25);
+    color: white;
+}
+
+a:hover {
+    background-color: gray;
+    display: block;
+    padding: 5px;
+}
+
+a:visited {
+    color: blueviolet;
+}
